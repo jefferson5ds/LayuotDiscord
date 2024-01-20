@@ -1,0 +1,7 @@
+
+@media  and(min-width: 768px) {
+    body{
+        display: block;
+        
+    }
+}
