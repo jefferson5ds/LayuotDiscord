@@ -4,8 +4,56 @@ body{
 }
 
 header{
+    background-image: url(../imagens/Header\ Background.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 10px;
+    width: 1280px;
+    height: 459px;
+    /*
+    margin-right: 20px;
+    margin-left: 20px;  */
+    margin: auto;
+}
+.titulo{
+    text-align: center;
+    margin: 30px;
+}
+.texto{
+    text-align: center;
+}
+.botao{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px;
 
 }
-h1{
+.section01{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
+}
+.section02{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
+}
+.section03{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
 
+}
+.section04{
+    text-align: center;
+    gap: 20px;
+    margin: 10px;
+}
+footer{
+    background-color: black;
+   text-align: center;
 }
