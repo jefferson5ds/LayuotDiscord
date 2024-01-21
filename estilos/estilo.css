@@ -83,7 +83,7 @@ footer{
     text-align: center;
     justify-content: center;
     align-items: center;
-   margin: auto;
+    margin: auto;
 
    
   }  
@@ -103,6 +103,6 @@ footer{
       justify-content: center;
       align-items: center;
       flex-direction: column;
-     display: inline-block;
+   
     }  
   }
