@@ -79,11 +79,12 @@ footer{
 
 @media screen  and (min-width: 320px){
   footer{
-    display: block;
+    width: 100vh;
+ 
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: auto;
+   
 
    
   }  
@@ -91,18 +92,23 @@ footer{
 
 
 @media screen and (min-width: 320px){
-    main{
+    main .sectio01 .section02 .section03 .section04{
+        display: block;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
+        
         
     }
 }
 @media screen  and (min-width: 320px){
-    header{
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+    header  {
+      width: 100%;
+   flex-direction: column;
+      display:flex;
+      
+
+    
    
     }  
   }
