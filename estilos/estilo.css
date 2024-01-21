@@ -8,23 +8,17 @@ header{
     background-position: center center;
     background-size: cover;
     padding: 10px;
-    width: 1280px;
+    width: 1100px;
     height: 459px;
     /*
     margin-right: 20px;
     margin-left: 20px;  */
-    margin: auto;
+   margin: auto;
     
 
    }
 
-@media  and (min-width: 470px) {
-    body{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-}
+
 
 .titulo{
     text-align: center;
@@ -75,7 +69,36 @@ main{
     
 }
 footer{
+ 
     background-color: black;
     text-align: center;
+    justify-content: center;
     
 }
+
+@media screen  and (min-width: 320px){
+  footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+   
+  }  
+}
+
+
+@media screen and (min-width: 320px){
+    main{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen  and (min-width: 320px){
+    header{
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     display: inline-block;
+    }  
+  }
